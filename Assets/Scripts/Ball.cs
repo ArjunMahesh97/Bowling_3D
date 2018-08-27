@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Ball : MonoBehaviour {
-
+	public bool inPlay = false;
 	private Rigidbody rigidBody;
 	private AudioSource ballSound;
 	public Vector3 launchVelocity;
@@ -14,9 +14,10 @@ public class Ball : MonoBehaviour {
 		rigidBody.useGravity = false;
 	}
 
-	public void Launch (Vector3 velocity)
+	public void Launch (Vector3 vel)
 	{
-		rigidBody.velocity = velocity;
+		inPlay = true;
+		rigidBody.velocity = vel;
 		rigidBody.useGravity = true;
 		ballSound.Play ();
 	}
