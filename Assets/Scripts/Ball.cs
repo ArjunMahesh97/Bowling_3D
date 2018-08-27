@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,13 +11,13 @@ public class Ball : MonoBehaviour {
 	void Start () {
 		rigidBody = GetComponent<Rigidbody> ();
 		ballSound = GetComponent<AudioSource> ();
-
-		Launch ();
+		rigidBody.useGravity = false;
 	}
 
-	public void Launch ()
+	public void Launch (Vector3 velocity)
 	{
-		rigidBody.velocity = launchVelocity;
+		rigidBody.velocity = velocity;
+		rigidBody.useGravity = true;
 		ballSound.Play ();
 	}
 	
