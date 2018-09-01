@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using UnityEngine;
 
 public class PinSetter : MonoBehaviour {
-
+	private bool ballEnteredBox = false;
 	public Text standingDisplay;
 	// Use this for initialization
 	void Start () {
@@ -25,4 +25,22 @@ public class PinSetter : MonoBehaviour {
 		} 
 		return standing;
 	}
+
+	void OnTriggerEnter(Collider collider){
+		GameObject thingHit = collider.gameObject;
+
+		if (thingHit.GetComponent<Ball> ()) {
+			ballEnteredBox = true;
+			standingDisplay.color = Color.red;
+		}
+	}
+
+	void OnTriggerExit(Collider collider){
+		GameObject thing = collider.gameObject;
+
+		if (thing.GetComponent<Pins> ()) {
+			Destroy(thing );
+		}
+	}
 }
+

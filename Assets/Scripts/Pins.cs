@@ -17,7 +17,7 @@ public class Pins : MonoBehaviour {
 	public bool IsStanding(){
 		Vector3 rotationInEulur = transform.rotation.eulerAngles;
 
-		float tiltInX = Mathf.Abs (rotationInEulur.x);
+		float tiltInX = Mathf.Abs (270-rotationInEulur.x);
 		float tiltInZ = Mathf.Abs (rotationInEulur.z);
 
 		if (tiltInX < standingThreshold && tiltInZ < standingThreshold)
