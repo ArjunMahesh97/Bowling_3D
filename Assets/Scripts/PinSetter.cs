@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class PinSetter : MonoBehaviour {
 	private bool ballEnteredBox = false;
+	private float lastStandingTime; 
+
+	public int lastStandingCount = -1;
 	public Text standingDisplay;
 	// Use this for initialization
 	void Start () {
@@ -14,6 +17,18 @@ public class PinSetter : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		standingDisplay.text = CountStanding ().ToString ();
+
+		if (ballEnteredBox) {
+			CheckStanding ();
+		}
+		
+	}
+
+	void CheckStanding(){
+	
+	}
+
+	void PinsHaveSettled(){
 		
 	}
 
