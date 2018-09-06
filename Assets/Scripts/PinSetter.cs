@@ -5,13 +5,14 @@ using UnityEngine;
 
 public class PinSetter : MonoBehaviour {
 	private bool ballEnteredBox = false;
-	private float lastStandingTime; 
+	private float lastChangeTime; 
+	private Ball ball;
 
 	public int lastStandingCount = -1;
 	public Text standingDisplay;
 	// Use this for initialization
 	void Start () {
-		
+		ball = GameObject.FindObjectOfType<Ball> ();
 	}
 	
 	// Update is called once per frame
@@ -25,11 +26,25 @@ public class PinSetter : MonoBehaviour {
 	}
 
 	void CheckStanding(){
-	
+		int currentStanding = CountStanding ();
+
+		if (currentStanding != lastStandingCount) {
+			lastChangeTime = Time.time;
+			lastStandingCount = currentStanding;
+			return;
+		}
+
+		float settleTime = 3f;
+		if ((Time.time - lastChangeTime) > settleTime) {
+			PinsHaveSettled ();
+		}	
 	}
 
 	void PinsHaveSettled(){
-		
+		ball.Reset ();
+		lastStandingCount = -1;
+		ballEnteredBox = false;
+		standingDisplay.color = Color.green;
 	}
 
 	int CountStanding(){
