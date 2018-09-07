@@ -10,6 +10,7 @@ public class PinSetter : MonoBehaviour {
 
 	public int lastStandingCount = -1;
 	public Text standingDisplay;
+	public float distanceToraise = 40f;
 	// Use this for initialization
 	void Start () {
 		ball = GameObject.FindObjectOfType<Ball> ();
@@ -34,7 +35,7 @@ public class PinSetter : MonoBehaviour {
 			return;
 		}
 
-		float settleTime = 3f;
+		float settleTime = 5f;
 		if ((Time.time - lastChangeTime) > settleTime) {
 			PinsHaveSettled ();
 		}	
@@ -54,6 +55,22 @@ public class PinSetter : MonoBehaviour {
 				standing++;
 		} 
 		return standing;
+	}
+
+	public void RaisePins(){
+		foreach (Pins pin in GameObject.FindObjectsOfType<Pins>()) {
+			if (pin.IsStanding ()) {
+				pin.transform.Translate (new Vector3 (0, 0, distanceToraise));
+			}
+		}
+	}
+
+	public void LowerPins(){
+		
+	}
+
+	public void RenewPins(){
+
 	}
 
 	void OnTriggerEnter(Collider collider){
