@@ -457,6 +457,56 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114441444548183804, guid: aacc11506f2167947a3e6ba3ad71c4e1,
+        type: 2}
+      propertyPath: distanceToraise
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 114222387245622526, guid: aacc11506f2167947a3e6ba3ad71c4e1,
+        type: 2}
+      propertyPath: distanceToraise
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 114640644163205718, guid: aacc11506f2167947a3e6ba3ad71c4e1,
+        type: 2}
+      propertyPath: distanceToraise
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 114022115230602686, guid: aacc11506f2167947a3e6ba3ad71c4e1,
+        type: 2}
+      propertyPath: distanceToraise
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 114571982959859078, guid: aacc11506f2167947a3e6ba3ad71c4e1,
+        type: 2}
+      propertyPath: distanceToraise
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 114657551561601938, guid: aacc11506f2167947a3e6ba3ad71c4e1,
+        type: 2}
+      propertyPath: distanceToraise
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 114968349870535760, guid: aacc11506f2167947a3e6ba3ad71c4e1,
+        type: 2}
+      propertyPath: distanceToraise
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 114404302259924402, guid: aacc11506f2167947a3e6ba3ad71c4e1,
+        type: 2}
+      propertyPath: distanceToraise
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 114295646526553336, guid: aacc11506f2167947a3e6ba3ad71c4e1,
+        type: 2}
+      propertyPath: distanceToraise
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 114161891674164596, guid: aacc11506f2167947a3e6ba3ad71c4e1,
+        type: 2}
+      propertyPath: distanceToraise
+      value: 60
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aacc11506f2167947a3e6ba3ad71c4e1, type: 2}
   m_IsPrefabParent: 0
@@ -1439,7 +1489,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lastStandingCount: -1
   standingDisplay: {fileID: 678110956}
-  distanceToraise: 40
 --- !u!65 &1047776966
 BoxCollider:
   m_ObjectHideFlags: 0
