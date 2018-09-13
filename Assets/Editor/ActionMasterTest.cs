@@ -7,6 +7,8 @@ using UnityEngine;
 public class ActionMasterTest {
 
 	private ActionMaster.Action endTurn = ActionMaster.Action.EndTurn;
+	private ActionMaster.Action tidy = ActionMaster.Action.Tidy;
+
 	ActionMaster actionMaster = new ActionMaster();
 
 	[Test]
@@ -18,5 +20,10 @@ public class ActionMasterTest {
 	public void T01OneStrike(){
 		Assert.AreEqual(endTurn,actionMaster.Bowl(10));
 		
+	}
+
+	[Test]
+	public void T02Bowl8(){
+		Assert.AreEqual(tidy,actionMaster.Bowl(8));
 	}
 }
