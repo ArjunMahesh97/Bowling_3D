@@ -6,10 +6,14 @@ using UnityEngine;
 [TestFixture]
 public class ActionMasterTest {
 
+	private ActionMaster actionMaster;
 	private ActionMaster.Action endTurn = ActionMaster.Action.EndTurn;
 	private ActionMaster.Action tidy = ActionMaster.Action.Tidy;
 
-	ActionMaster actionMaster = new ActionMaster();
+	[SetUp]
+	public void Setup(){
+		actionMaster = new ActionMaster ();
+	}
 
 	[Test]
 	public void T00PassingTest () {
@@ -25,5 +29,11 @@ public class ActionMasterTest {
 	[Test]
 	public void T02Bowl8(){
 		Assert.AreEqual(tidy,actionMaster.Bowl(8));
+	}
+
+	[Test]
+	public void T03Bowl28Spare(){
+		actionMaster.Bowl (8);
+		Assert.AreEqual (endTurn, actionMaster.Bowl (2));
 	}
 }

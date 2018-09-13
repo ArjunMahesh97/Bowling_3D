@@ -21,7 +21,9 @@ public class ActionMaster{
 		if (bowl % 2 != 0) {
 			bowl += 1;
 			return Action.Tidy;
-
+		} else if (bowl % 2 == 0) {
+			bowl += 1;
+			return Action.EndTurn;
 		}
 
 		throw new UnityException ("Not Sure");
