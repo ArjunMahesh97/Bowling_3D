@@ -9,6 +9,7 @@ public class ActionMasterTest {
 	private ActionMaster actionMaster;
 	private ActionMaster.Action endTurn = ActionMaster.Action.EndTurn;
 	private ActionMaster.Action tidy = ActionMaster.Action.Tidy;
+	private ActionMaster.Action reset = ActionMaster.Action.Reset;
 
 	[SetUp]
 	public void Setup(){
@@ -35,5 +36,15 @@ public class ActionMasterTest {
 	public void T03Bowl28Spare(){
 		actionMaster.Bowl (8);
 		Assert.AreEqual (endTurn, actionMaster.Bowl (2));
+	}
+
+	[Test]
+	public void T04StrikeInLastFrame(){
+		int[] rolls={1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1};
+		foreach(int roll in rolls){
+			actionMaster.Bowl(roll);
+		}
+
+		Assert.AreEqual(reset,actionMaster.Bowl(10));
 	}
 }
