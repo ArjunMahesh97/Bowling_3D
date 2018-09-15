@@ -36,15 +36,15 @@ public class ActionMaster{
 			}
 		}
 
-		if (pins == 10) {
-			bowl += 2;
-			return Action.EndTurn;
-
-		}
-
 		if (bowl % 2 != 0) {
-			bowl += 1;
-			return Action.Tidy;
+			if (pins == 10) {
+				bowl += 2;
+				return Action.EndTurn;
+
+			} else {
+				bowl += 1;
+				return Action.Tidy;
+			}
 		} else if (bowl % 2 == 0) {
 			bowl += 1;
 			return Action.EndTurn;
