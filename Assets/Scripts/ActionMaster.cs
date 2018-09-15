@@ -20,11 +20,18 @@ public class ActionMaster{
 
 		bowls [bowl - 1] = pins;
 
-		if (bowl >= 19 && Bowl21Awarded ()) {
+		if (bowl == 19 && pins==10) {
 			bowl += 1;
 			return Action.Reset;
-		} else if (bowl == 20 && !Bowl21Awarded ()) {
-			return Action.EndGame;
+		} else if (bowl == 20) {
+			bowl += 1;
+			if (AllPinsKnocked ()) {
+				return Action.Reset;
+			} else if (Bowl21Awarded ()) {
+				return Action.Tidy;
+			} else {
+				return Action.EndGame;
+			}
 		}
 
 		if (pins == 10) {
@@ -42,6 +49,10 @@ public class ActionMaster{
 		}
 
 		throw new UnityException ("Not Sure");
+	}
+
+	private bool AllPinsKnocked(){
+		return ((bowls [18] + bowls [19]) % 10 == 0);
 	}
 
 	private bool Bowl21Awarded(){
