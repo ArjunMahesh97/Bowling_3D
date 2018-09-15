@@ -90,4 +90,15 @@ public class ActionMasterTest {
 
 		Assert.AreEqual (tidy, actionMaster.Bowl (1));
 	}
+
+
+	[Test]
+	public void T09TidyAt20ForGutter(){
+		int[] rolls={1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 10};
+		foreach (int roll in rolls) {
+			actionMaster.Bowl (roll);
+		}
+
+		Assert.AreEqual (tidy, actionMaster.Bowl (0));
+	}
 }
