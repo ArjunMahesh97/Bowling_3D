@@ -121,5 +121,5 @@ public class ActionMasterTest {
 		Assert.AreEqual (reset, actionMaster.Bowl (10));
 		Assert.AreEqual (reset, actionMaster.Bowl (10));
 		Assert.AreEqual (endGame, actionMaster.Bowl (10));
-	}
+	}//end of testing		
 }
