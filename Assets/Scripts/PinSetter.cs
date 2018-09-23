@@ -52,6 +52,7 @@ public class PinSetter : MonoBehaviour {
 		lastSettledCount = CountStanding ();
 
 		ActionMaster.Action action = actionMaster.Bowl (pinFall);
+		Debug.Log ("Pinfall: " + pinFall + " action: " + action);
 
 		if (action == ActionMaster.Action.Tidy) {
 			animator.SetTrigger ("tidyTrigger");
