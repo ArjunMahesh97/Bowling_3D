@@ -4,16 +4,16 @@ using UnityEngine.UI;
 using UnityEngine;
 
 public class PinSetter : MonoBehaviour {
-	private bool ballEnteredBox = false;
+	
 	private float lastChangeTime; 
 	private Ball ball;
 	private int lastSettledCount=10;
-	private ActionMaster actionMaster = new ActionMaster();
 	private Animator animator;
+	private int lastStandingCount = -1;
 
 	public GameObject pinSet;
 
-	public int lastStandingCount = -1;
+	public bool BallOutOfPlay = false;
 	public Text standingDisplay;
 	//public float distanceToraise = 40f;
 	// Use this for initialization
@@ -26,8 +26,10 @@ public class PinSetter : MonoBehaviour {
 	void Update () {
 		standingDisplay.text = CountStanding ().ToString ();
 
-		if (ballEnteredBox) {
+		if (BallOutOfPlay) {
 			CheckStanding ();
+			standingDisplay.color = Color.yellow;
+
 		}
 		
 	}
@@ -50,6 +52,7 @@ public class PinSetter : MonoBehaviour {
 	void PinsHaveSettled(){
 		int pinFall = lastSettledCount - CountStanding ();
 		lastSettledCount = CountStanding ();
+		ActionMaster actionMaster = new ActionMaster();
 
 		ActionMaster.Action action = actionMaster.Bowl (pinFall);
 		Debug.Log ("Pinfall: " + pinFall + " action: " + action);
@@ -66,10 +69,10 @@ public class PinSetter : MonoBehaviour {
 			throw new UnityException ("Dont know");
 		}
 
+		standingDisplay.color = Color.green;
 		ball.Reset ();
 		lastStandingCount = -1;
-		ballEnteredBox = false;
-		standingDisplay.color = Color.green;
+		BallOutOfPlay = false;
 	}
 
 	int CountStanding(){
@@ -98,14 +101,16 @@ public class PinSetter : MonoBehaviour {
 
 	}
 
+	/*
 	void OnTriggerEnter(Collider collider){
 		GameObject thingHit = collider.gameObject;
 
 		if (thingHit.GetComponent<Ball> ()) {
-			ballEnteredBox = true;
+			BallOutOfPlay = true;
 			standingDisplay.color = Color.red;
 		}
 	}
+	*/
 
 	void OnTriggerExit(Collider collider){
 		GameObject thing = collider.gameObject;
