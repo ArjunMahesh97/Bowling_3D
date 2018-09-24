@@ -10,6 +10,7 @@ public class PinSetter : MonoBehaviour {
 	private int lastSettledCount=10;
 	private Animator animator;
 	private int lastStandingCount = -1;
+	private ActionMaster actionMaster = new ActionMaster();
 
 	public GameObject pinSet;
 
@@ -52,7 +53,7 @@ public class PinSetter : MonoBehaviour {
 	void PinsHaveSettled(){
 		int pinFall = lastSettledCount - CountStanding ();
 		lastSettledCount = CountStanding ();
-		ActionMaster actionMaster = new ActionMaster();
+
 
 		ActionMaster.Action action = actionMaster.Bowl (pinFall);
 		Debug.Log ("Pinfall: " + pinFall + " action: " + action);
