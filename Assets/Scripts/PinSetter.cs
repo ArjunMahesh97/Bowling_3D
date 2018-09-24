@@ -58,8 +58,10 @@ public class PinSetter : MonoBehaviour {
 			animator.SetTrigger ("tidyTrigger");
 		}else if (action == ActionMaster.Action.EndTurn) {
 			animator.SetTrigger ("resetTrigger");
+			lastSettledCount=10;
 		}else if (action == ActionMaster.Action.Reset) {
 			animator.SetTrigger ("resetTrigger");
+			lastSettledCount=10;
 		}else if (action == ActionMaster.Action.EndGame) {
 			throw new UnityException ("Dont know");
 		}
