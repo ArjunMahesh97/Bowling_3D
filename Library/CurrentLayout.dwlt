@@ -13,10 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 43
-    width: 1920
-    height: 1037
+    x: 6
+    y: 51
+    width: 1906
+    height: 1021
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 3}
@@ -39,12 +39,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
-    height: 987
-  m_MinSize: {x: 508, y: 492}
+    width: 1906
+    height: 971
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 11
+  controlID: 51
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,9 +64,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 1037
-  m_MinSize: {x: 950, y: 300}
+    width: 1906
+    height: 1021
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &4
 MonoBehaviour:
@@ -84,7 +84,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1906
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -104,8 +104,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1017
-    width: 1920
+    y: 1001
+    width: 1906
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -127,12 +127,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 987
-  m_MinSize: {x: 508, y: 492}
+    width: 1906
+    height: 971
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 12
+  controlID: 52
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,12 +151,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1579
-    height: 987
+    width: 1568
+    height: 971
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 13
+  controlID: 53
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -175,12 +175,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1579
-    height: 716
+    width: 1568
+    height: 700
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 14
+  controlID: 54
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,8 +197,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 270
-    height: 716
+    width: 268
+    height: 700
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -220,10 +220,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 270
+    x: 268
     y: 0
-    width: 1309
-    height: 716
+    width: 1300
+    height: 700
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
@@ -249,8 +249,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 716
-    width: 1579
+    y: 700
+    width: 1568
     height: 271
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -274,18 +274,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1579
+    x: 1568
     y: 0
-    width: 341
-    height: 987
-  m_MinSize: {x: 102, y: 121}
+    width: 338
+    height: 971
+  m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 13}
   - {fileID: 21}
   - {fileID: 22}
-  m_Selected: 2
+  m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -308,10 +308,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1581
-    y: 92
-    width: 339
-    height: 966
+    x: 1576
+    y: 100
+    width: 336
+    height: 950
   m_IsSceneBased: 0
   m_TestTypeToolbarIndex: 1
   m_PlayModeTestListGUI:
@@ -381,7 +381,7 @@ MonoBehaviour:
       name: Assembly-CSharp-Editor.dll
       fullName: C:/CODING/GameDev/projects/Bowling/Bowling/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 0.2810268
+      duration: 0.3371928
       messages: 
       output: 
       stacktrace: 
@@ -392,7 +392,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.2701725
+      duration: 0.3260917
       messages: 
       output: 
       stacktrace: 
@@ -403,7 +403,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ActionMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.0079129
+      duration: 0.0201779
       messages: 
       output: 
       stacktrace: 
@@ -414,7 +414,7 @@ MonoBehaviour:
       name: T01OneStrike
       fullName: ActionMasterTest.T01OneStrike
       resultStatus: 1
-      duration: 0.0120916
+      duration: 0.0138905
       messages: 
       output: 
       stacktrace: 
@@ -425,7 +425,7 @@ MonoBehaviour:
       name: T02Bowl8
       fullName: ActionMasterTest.T02Bowl8
       resultStatus: 1
-      duration: 0.0117161
+      duration: 0.0074151
       messages: 
       output: 
       stacktrace: 
@@ -436,7 +436,7 @@ MonoBehaviour:
       name: T03Bowl28Spare
       fullName: ActionMasterTest.T03Bowl28Spare
       resultStatus: 1
-      duration: 0.0109642
+      duration: 0.0082955
       messages: 
       output: 
       stacktrace: 
@@ -447,7 +447,7 @@ MonoBehaviour:
       name: T04StrikeInLastFrame
       fullName: ActionMasterTest.T04StrikeInLastFrame
       resultStatus: 1
-      duration: 0.0110123
+      duration: 0.0079604
       messages: 
       output: 
       stacktrace: 
@@ -458,7 +458,7 @@ MonoBehaviour:
       name: T05SpareInLastFrame
       fullName: ActionMasterTest.T05SpareInLastFrame
       resultStatus: 1
-      duration: 0.0119898
+      duration: 0.0081719
       messages: 
       output: 
       stacktrace: 
@@ -469,7 +469,7 @@ MonoBehaviour:
       name: T06GameEndsAt21
       fullName: ActionMasterTest.T06GameEndsAt21
       resultStatus: 1
-      duration: 0.0114327
+      duration: 0.0121658
       messages: 
       output: 
       stacktrace: 
@@ -480,7 +480,7 @@ MonoBehaviour:
       name: T07GameEndsAt20
       fullName: ActionMasterTest.T07GameEndsAt20
       resultStatus: 1
-      duration: 0.0110066
+      duration: 0.0123261
       messages: 
       output: 
       stacktrace: 
@@ -491,7 +491,7 @@ MonoBehaviour:
       name: T08ResetAt20
       fullName: ActionMasterTest.T08ResetAt20
       resultStatus: 1
-      duration: 0.0114841
+      duration: 0.0080635
       messages: 
       output: 
       stacktrace: 
@@ -502,7 +502,7 @@ MonoBehaviour:
       name: T09TidyAt20ForGutter
       fullName: ActionMasterTest.T09TidyAt20ForGutter
       resultStatus: 1
-      duration: 0.0108224
+      duration: 0.0120107
       messages: 
       output: 
       stacktrace: 
@@ -513,7 +513,7 @@ MonoBehaviour:
       name: T10SecondChanceStrike
       fullName: ActionMasterTest.T10SecondChanceStrike
       resultStatus: 1
-      duration: 0.0117596
+      duration: 0.0116339
       messages: 
       output: 
       stacktrace: 
@@ -524,7 +524,18 @@ MonoBehaviour:
       name: T11TripleStrike
       fullName: ActionMasterTest.T11TripleStrike
       resultStatus: 1
-      duration: 0.0087034
+      duration: 0.0108513
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest][T12GutterFirst]'
+      name: T12GutterFirst
+      fullName: ActionMasterTest.T12GutterFirst
+      resultStatus: 1
+      duration: 0.0124394
       messages: 
       output: 
       stacktrace: 
@@ -577,10 +588,10 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 272
-    y: 92
-    width: 1305
-    height: 695
+    x: 276
+    y: 100
+    width: 1296
+    height: 679
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -589,10 +600,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -652.5
-    m_HBaseRangeMax: 652.5
-    m_VBaseRangeMin: -339
-    m_VBaseRangeMax: 339
+    m_HBaseRangeMin: -648
+    m_HBaseRangeMax: 648
+    m_VBaseRangeMin: -331
+    m_VBaseRangeMax: 331
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -609,25 +620,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 1305
-      height: 678
+      width: 1296
+      height: 662
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 652.5, y: 339}
+    m_Translation: {x: 648, y: 331}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -652.5
-      y: -339
-      width: 1305
-      height: 678
+      x: -648
+      y: -331
+      width: 1296
+      height: 662
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1305, y: 695}
+  m_LastWindowPixelSize: {x: 1296, y: 679}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -653,15 +664,15 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 92
-    width: 268
-    height: 695
+    x: 6
+    y: 100
+    width: 266
+    height: 679
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d2060000
-    m_LastClickedID: 0
-    m_ExpandedIDs: e8fbffff00000000
+    m_SelectedIDs: 6c41ffff
+    m_LastClickedID: -48788
+    m_ExpandedIDs: 7a41ffff4c42ffffee45ffffe6fbffff0000000066260000d0260000d4260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -706,19 +717,19 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: -31728
-    y: -31951
-    width: 1305
-    height: 695
+    x: 276
+    y: 100
+    width: 1296
+    height: 679
   m_SceneLighting: 0
-  lastFramingTime: 5393.223619160955
+  lastFramingTime: 17023.408552953333
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 89.74681, y: 49.722416, z: 1817.3413}
+    m_Target: {x: 25.600586, y: 8.086594, z: 1898.8732}
     speed: 2
-    m_Value: {x: 89.74681, y: 49.722416, z: 1817.3413}
+    m_Value: {x: 25.600586, y: 8.086594, z: 1898.8732}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -741,13 +752,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.11242501, y: 0.4262155, z: -0.05347779, w: -0.89601403}
+    m_Target: {x: -0.16213043, y: -0.48728672, z: 0.0926143, w: -0.8530463}
     speed: 2
-    m_Value: {x: -0.112425014, y: 0.4262155, z: -0.05347779, w: -0.89601403}
+    m_Value: {x: -0.16213043, y: -0.48728672, z: 0.0926143, w: -0.8530463}
   m_Size:
-    m_Target: 246.53304
+    m_Target: 293.83884
     speed: 2
-    m_Value: 246.53304
+    m_Value: 293.83884
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -834,9 +845,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 808
-    width: 1577
+    x: 6
+    y: 800
+    width: 1566
     height: 250
   m_SearchFilter:
     m_NameFilter: 
@@ -849,18 +860,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Editor
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Editor
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\CODING\GameDev\projects\Bowling\Bowling
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8e250000
-    m_LastClickedID: 9614
+    m_SelectedIDs: 6a250000
+    m_LastClickedID: 9578
     m_ExpandedIDs: 00000000ee2400003225000092250000c6250000fe25000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1015,10 +1026,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1581
-    y: 92
-    width: 339
-    height: 966
+    x: 1576
+    y: 100
+    width: 336
+    height: 950
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
@@ -1048,7 +1059,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1581
-    y: 92
-    width: 339
-    height: 966
+    x: 1576
+    y: 100
+    width: 336
+    height: 950

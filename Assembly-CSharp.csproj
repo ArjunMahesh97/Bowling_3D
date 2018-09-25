@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\LaneBox.cs" />
      <Compile Include="Assets\Scripts\PinSetter.cs" />
      <Compile Include="Assets\Scripts\Pins.cs" />
+     <Compile Include="Assets\Scripts\ScoreMaster.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
