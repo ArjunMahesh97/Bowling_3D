@@ -88,6 +88,7 @@ public class PinSetter : MonoBehaviour {
 	public void RaisePins(){
 		foreach (Pins pin in GameObject.FindObjectsOfType<Pins>()) {
 			pin.Raise ();
+			pin.transform.rotation = Quaternion.Euler (270f, 0, 0);
 		}
 	}
 
