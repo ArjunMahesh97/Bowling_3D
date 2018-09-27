@@ -98,7 +98,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!82 &82077153695758238
 AudioSource:
   m_ObjectHideFlags: 1
@@ -190,6 +190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d809f112f77e6e34786e9b2f2c53666d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inPlay: 0
   launchVelocity: {x: 0, y: 0, z: 300}
 --- !u!135 &135398823717976314
 SphereCollider:
