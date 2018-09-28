@@ -9,7 +9,12 @@ public class ActionMaster{
 
 	public enum Action{Tidy, Reset, EndTurn, EndGame}; 
 
-	public Action Bowl(int pins){
+	public static Action NextAction(List<int> pinFalls){
+		
+	}
+
+
+	private Action Bowl(int pins){
 
 		if (bowl >= 21) {
 			return Action.EndGame;
