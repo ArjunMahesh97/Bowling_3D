@@ -10,11 +10,17 @@ public class ActionMaster{
 	public enum Action{Tidy, Reset, EndTurn, EndGame}; 
 
 	public static Action NextAction(List<int> pinFalls){
-		
+		ActionMaster am = new ActionMaster ();
+		Action currentAction = new Action ();
+
+		foreach (int pinFall in pinFalls) {
+			currentAction = am.Bowl (pinFall);
+		}
+		return currentAction;
 	}
 
 
-	private Action Bowl(int pins){
+	public Action Bowl(int pins){
 
 		if (bowl >= 21) {
 			return Action.EndGame;
