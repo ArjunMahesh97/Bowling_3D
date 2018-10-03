@@ -1249,8 +1249,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pinSet: {fileID: 1976647147238090, guid: aacc11506f2167947a3e6ba3ad71c4e1, type: 2}
-  BallOutOfPlay: 0
-  standingDisplay: {fileID: 678110956}
 --- !u!65 &1047776966
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1697,7 +1695,7 @@ GameObject:
   - component: {fileID: 2120144377}
   - component: {fileID: 2120144380}
   - component: {fileID: 2120144379}
-  - component: {fileID: 2120144378}
+  - component: {fileID: 2120144381}
   m_Layer: 0
   m_Name: Lane Box
   m_TagString: Untagged
@@ -1718,17 +1716,6 @@ Transform:
   m_Father: {fileID: 1540998749}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2120144378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2120144376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54e4449c4f0a736449b97c4090deed5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2120144379
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1748,3 +1735,16 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2120144376}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2120144381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120144376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7ea6dbc4ff3fd4b8d467af33ff7765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  standingDisplay: {fileID: 678110956}
+  BallOutOfPlay: 0
