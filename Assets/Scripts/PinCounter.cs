@@ -11,9 +11,11 @@ public class PinCounter : MonoBehaviour {
 	private int lastSettledCount=10;
 	private float lastChangeTime; 
 
+	private GameManager gameManager;
+
 	// Use this for initialization
 	void Start () {
-		
+		gameManager = GameObject.FindObjectOfType<GameManager> ();
 	}
 	
 	// Update is called once per frame
@@ -53,7 +55,7 @@ public class PinCounter : MonoBehaviour {
 		int pinFall = lastSettledCount - CountStanding ();
 		lastSettledCount = CountStanding ();
 
-
+		gameManager.Bowl (pinFall);
 
 		standingDisplay.color = Color.green;
 		lastStandingCount = -1;

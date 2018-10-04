@@ -20,7 +20,7 @@ public class ActionMaster{
 	}
 
 
-	public Action Bowl(int pins){
+	private Action Bowl(int pins){
 
 		if (bowl >= 21) {
 			return Action.EndGame;

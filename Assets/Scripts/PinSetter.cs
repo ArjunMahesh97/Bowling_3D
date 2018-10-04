@@ -4,9 +4,6 @@ using UnityEngine.UI;
 using UnityEngine;
 
 public class PinSetter : MonoBehaviour {
-	
-
-	private Ball ball;
 
 	private Animator animator;
 
