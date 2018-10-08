@@ -199,8 +199,8 @@ MonoBehaviour:
     y: 0
     width: 268
     height: 700
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -278,8 +278,8 @@ MonoBehaviour:
     y: 0
     width: 338
     height: 971
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 13}
@@ -542,6 +542,28 @@ MonoBehaviour:
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][OurScoreDisplayTest]'
+      name: OurScoreDisplayTest
+      fullName: OurScoreDisplayTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][OurScoreDisplayTest][T00PassingTest]'
+      name: T00PassingTest
+      fullName: OurScoreDisplayTest.T00PassingTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
     m_ResultText: T10SecondChanceStrike (0.012s)
     m_ResultStacktrace: 
     m_TestListState:
@@ -717,8 +739,8 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 278
-    y: 100
+    x: -31730
+    y: -31951
     width: 1294
     height: 679
   m_SceneLighting: 0
@@ -754,7 +776,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.079269715, y: 0.71440053, z: -0.08202861, w: 0.6903764}
     speed: 2
-    m_Value: {x: 0.079269715, y: 0.71440053, z: -0.08202861, w: 0.6903764}
+    m_Value: {x: 0.07926971, y: 0.7144005, z: -0.08202861, w: 0.69037634}
   m_Size:
     m_Target: 1623.6238
     speed: 2
@@ -870,9 +892,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: be250000
-    m_LastClickedID: 9662
-    m_ExpandedIDs: 00000000f02400003425000094250000c82500000026000000ca9a3bffffff7f
+    m_SelectedIDs: c6250000
+    m_LastClickedID: 9670
+    m_ExpandedIDs: 00000000f82400003c2500009c250000d02500000826000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -900,7 +922,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f02400003425000094250000c825000000260000
+    m_ExpandedIDs: 00000000f82400003c2500009c250000d025000008260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -927,7 +949,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: a0020000ae1e000000260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
