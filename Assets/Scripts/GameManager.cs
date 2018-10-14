@@ -21,13 +21,20 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void Bowl(int pinFall){
-		bowls.Add (pinFall);
+		try{
+			bowls.Add (pinFall);
+			ball.Reset ();
+			ActionMaster.Action nextAction = ActionMaster.NextAction (bowls);
+			pinSetter.PerformAction (nextAction);
+		}catch{
+			Debug.LogWarning("Error");
+		}
+		try{
+			scoreDisplay.FillRollCards (bowls);
+		}catch{
+			Debug.LogWarning("fillrollcards failed");
+		}
 
-		ActionMaster.Action nextAction = ActionMaster.NextAction (bowls);
-		pinSetter.PerformAction (nextAction);
 
-		scoreDisplay.FillRollCards (bowls);
-
-		ball.Reset ();
 	}
 }
