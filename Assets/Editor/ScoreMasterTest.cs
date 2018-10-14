@@ -7,11 +7,11 @@ using System.Linq;
 [TestFixture]
 public class ScoreMasterTest {
 	
-//	[Test]
-//	public void T00PassingTest () {
-//		Assert.AreEqual (1, 1);
-//	}
-//
+	[Test]
+	public void T00PassingTest () {
+		Assert.AreEqual (1, 1);
+	}
+
 //	[Test]
 //	public void T01Bowl1 () {
 //		int[] rolls = {1};

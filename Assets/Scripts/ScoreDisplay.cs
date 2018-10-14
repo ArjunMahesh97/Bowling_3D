@@ -16,7 +16,17 @@ public class ScoreDisplay : MonoBehaviour {
 		
 	}
 
-	public void FillRollCards(List<int> rolls){
-		rolls [-1] = 1;
+	public void FillRolls(List<int> rolls){
+		
+	}
+
+	public void FillFrames(List<int> frames){
+		for (int i = 0; i < frames.Count; i++) {
+			frameTexts [i].text = frames [i].ToString ();
+		}
+	}
+
+	static string FormatRolls(List<int> rolls){
+		
 	}
 }

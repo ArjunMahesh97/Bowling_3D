@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour {
-	private List<int> bowls = new List<int>();
+	private List<int> rolls = new List<int>();
 
 	private PinSetter pinSetter;
 	private Ball ball;
@@ -22,15 +22,16 @@ public class GameManager : MonoBehaviour {
 
 	public void Bowl(int pinFall){
 		try{
-			bowls.Add (pinFall);
+			rolls.Add (pinFall);
 			ball.Reset ();
-			ActionMaster.Action nextAction = ActionMaster.NextAction (bowls);
+			ActionMaster.Action nextAction = ActionMaster.NextAction (rolls);
 			pinSetter.PerformAction (nextAction);
 		}catch{
 			Debug.LogWarning("Error");
 		}
 		try{
-			scoreDisplay.FillRollCards (bowls);
+			scoreDisplay.FillRolls (rolls);
+			scoreDisplay.FillFrames(ScoreMaster.ScoreCumulative(rolls));
 		}catch{
 			Debug.LogWarning("fillrollcards failed");
 		}
