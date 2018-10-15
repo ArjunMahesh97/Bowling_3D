@@ -17,7 +17,10 @@ public class ScoreDisplay : MonoBehaviour {
 	}
 
 	public void FillRolls(List<int> rolls){
-		
+		string scoreString = FormatRolls (rolls);
+		for (int i = 0; i < scoreString.Length; i++) {
+			rollTexts [i].text = scoreString [i].ToString ();
+		}
 	}
 
 	public void FillFrames(List<int> frames){
@@ -27,6 +30,8 @@ public class ScoreDisplay : MonoBehaviour {
 	}
 
 	static string FormatRolls(List<int> rolls){
-		
+		string output = "";
+
+		return output;
 	}
 }
