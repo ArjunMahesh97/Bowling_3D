@@ -1,17 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using NUnit.Framework;
-using UnityEngine;
-using System.Linq;
-
-[TestFixture]
-public class ScoreMasterTest {
-	
-	[Test]
-	public void T00PassingTest () {
-		Assert.AreEqual (1, 1);
-	}
-
+﻿//using System;
+//using System.Collections.Generic;
+//using NUnit.Framework;
+//using UnityEngine;
+//using System.Linq;
+//
+//[TestFixture]
+//public class ScoreMasterTest {
+//	
+//	[Test]
+//	public void T00PassingTest () {
+//		Assert.AreEqual (1, 1);
+//	}
+//
 //	[Test]
 //	public void T01Bowl1 () {
 //		int[] rolls = {1};
@@ -93,5 +93,5 @@ public class ScoreMasterTest {
 //		string rollsString = "X X X X 9-X X X X X91";
 //		Assert.AreEqual (rollsString, ScoreDisplay.FormatRolls(rolls.ToList()));
 //	}
-
-}
+//
+//}
