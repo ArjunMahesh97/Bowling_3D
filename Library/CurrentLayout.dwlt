@@ -388,163 +388,9 @@ MonoBehaviour:
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest]'
-      name: ActionMasterTest
-      fullName: ActionMasterTest
-      resultStatus: 1
-      duration: 0.3260917
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest][T00PassingTest]'
-      name: T00PassingTest
-      fullName: ActionMasterTest.T00PassingTest
-      resultStatus: 1
-      duration: 0.0201779
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest][T01OneStrike]'
-      name: T01OneStrike
-      fullName: ActionMasterTest.T01OneStrike
-      resultStatus: 1
-      duration: 0.0138905
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest][T02Bowl8]'
-      name: T02Bowl8
-      fullName: ActionMasterTest.T02Bowl8
-      resultStatus: 1
-      duration: 0.0074151
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest][T03Bowl28Spare]'
-      name: T03Bowl28Spare
-      fullName: ActionMasterTest.T03Bowl28Spare
-      resultStatus: 1
-      duration: 0.0082955
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest][T04StrikeInLastFrame]'
-      name: T04StrikeInLastFrame
-      fullName: ActionMasterTest.T04StrikeInLastFrame
-      resultStatus: 1
-      duration: 0.0079604
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest][T05SpareInLastFrame]'
-      name: T05SpareInLastFrame
-      fullName: ActionMasterTest.T05SpareInLastFrame
-      resultStatus: 1
-      duration: 0.0081719
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest][T06GameEndsAt21]'
-      name: T06GameEndsAt21
-      fullName: ActionMasterTest.T06GameEndsAt21
-      resultStatus: 1
-      duration: 0.0121658
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest][T07GameEndsAt20]'
-      name: T07GameEndsAt20
-      fullName: ActionMasterTest.T07GameEndsAt20
-      resultStatus: 1
-      duration: 0.0123261
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest][T08ResetAt20]'
-      name: T08ResetAt20
-      fullName: ActionMasterTest.T08ResetAt20
-      resultStatus: 1
-      duration: 0.0080635
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest][T09TidyAt20ForGutter]'
-      name: T09TidyAt20ForGutter
-      fullName: ActionMasterTest.T09TidyAt20ForGutter
-      resultStatus: 1
-      duration: 0.0120107
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest][T10SecondChanceStrike]'
-      name: T10SecondChanceStrike
-      fullName: ActionMasterTest.T10SecondChanceStrike
-      resultStatus: 1
-      duration: 0.0116339
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest][T11TripleStrike]'
-      name: T11TripleStrike
-      fullName: ActionMasterTest.T11TripleStrike
-      resultStatus: 1
-      duration: 0.0108513
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][ActionMasterTest][T12GutterFirst]'
-      name: T12GutterFirst
-      fullName: ActionMasterTest.T12GutterFirst
-      resultStatus: 1
-      duration: 0.0124394
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][OurScoreDisplayTest]'
-      name: OurScoreDisplayTest
-      fullName: OurScoreDisplayTest
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][ScoreDisplayTest]'
+      name: ScoreDisplayTest
+      fullName: ScoreDisplayTest
       resultStatus: 0
       duration: 0
       messages: 
@@ -553,9 +399,119 @@ MonoBehaviour:
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    - id: '[Bowling][Assembly-CSharp-Editor.dll][OurScoreDisplayTest][T00PassingTest]'
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T00PassingTest]'
       name: T00PassingTest
-      fullName: OurScoreDisplayTest.T00PassingTest
+      fullName: ScoreDisplayTest.T00PassingTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T01Bowl1]'
+      name: T01Bowl1
+      fullName: ScoreDisplayTest.T01Bowl1
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T02BowlX]'
+      name: T02BowlX
+      fullName: ScoreDisplayTest.T02BowlX
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T03Bowl19]'
+      name: T03Bowl19
+      fullName: ScoreDisplayTest.T03Bowl19
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T04BowlStrikeInLastFrame]'
+      name: T04BowlStrikeInLastFrame
+      fullName: ScoreDisplayTest.T04BowlStrikeInLastFrame
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][ScoreDisplayTest][T05Bowl0]'
+      name: T05Bowl0
+      fullName: ScoreDisplayTest.T05Bowl0
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][ScoreDisplayTest][TG01GoldenCopyB1of3]'
+      name: TG01GoldenCopyB1of3
+      fullName: ScoreDisplayTest.TG01GoldenCopyB1of3
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][ScoreDisplayTest][TG02GoldenCopyB2of3]'
+      name: TG02GoldenCopyB2of3
+      fullName: ScoreDisplayTest.TG02GoldenCopyB2of3
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][ScoreDisplayTest][TG03GoldenCopyB3of3]'
+      name: TG03GoldenCopyB3of3
+      fullName: ScoreDisplayTest.TG03GoldenCopyB3of3
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][ScoreDisplayTest][TG04GoldenCopyC1of3]'
+      name: TG04GoldenCopyC1of3
+      fullName: ScoreDisplayTest.TG04GoldenCopyC1of3
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowling][Assembly-CSharp-Editor.dll][ScoreDisplayTest][TG05GoldenCopyC2of3]'
+      name: TG05GoldenCopyC2of3
+      fullName: ScoreDisplayTest.TG05GoldenCopyC2of3
       resultStatus: 0
       duration: 0
       messages: 
@@ -634,7 +590,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -694,7 +650,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e8fbffff00000000
+    m_ExpandedIDs: dcd5feff6eb1ffffdafbffffe8fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -739,8 +695,8 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: -31730
-    y: -31951
+    x: 278
+    y: 100
     width: 1294
     height: 679
   m_SceneLighting: 0
@@ -882,18 +838,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\CODING\GameDev\projects\Bowling\Bowling
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c6250000
-    m_LastClickedID: 9670
+    m_SelectedIDs: 98250000
+    m_LastClickedID: 9624
     m_ExpandedIDs: 00000000f82400003c2500009c250000d02500000826000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -949,7 +905,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: a0020000ae1e000000260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
